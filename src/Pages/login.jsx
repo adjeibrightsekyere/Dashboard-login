@@ -56,15 +56,15 @@ function Login() {
 
     return (
         <div className="flex-col h-screen overflow-hidden">
-            <div className="grid grid-cols-2">
-                <div className="">
+            <div className="grid md:grid-cols-2">
+                <div className="hidden md:block">
                     <img src="/assets/happy.jpg" alt="" className="w-[672px] h-[700px] pt-4 pl-4 pb-10 rounded-3xl" />
                 </div>
-                <div className="  w-[672px]  pt-9  ">
-                    <div className="flex justify-between">
+                <div className="  md:w-[672px]  pt-9  ">
+                    <div className="flex flex-col md:flex-row md:justify-between">
                         <h1 className="ml-2 font-krona font-normal text-3xl text-[#02208D]"> Orbut</h1>
                         <span className="flex gap-x-2 font-poppins">
-                            <h1 className=" font-normal text-base text-[#4E4E4E] mt-3"> Don't have an account yet? </h1>
+                            <h1 className=" font-normal text-base text-[#4E4E4E] ml-2 md:ml-0 mt-3"> Don't have an account yet? </h1>
                             <div className="flex border rounded-full w-36  h-12 ">
                                 <h1 className="text-center mx-auto mt-2 text-lg text-[#3F20FF] font-medium">Sign up now</h1>
                             </div>
